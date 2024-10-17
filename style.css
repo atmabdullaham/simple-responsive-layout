@@ -61,24 +61,24 @@ nav{
 .box-container{
  border: 2px solid goldenrod;
  display: flex;
- gap: 10px;
+ /* gap: 10px; */
  margin: 50px auto;
- height: 600px;
-                           /*2.  flex direction */
- /* .................................................................................. */
- /*1.  flex-direction: row; (default:)*/
- /*2.  flex-direction: row-reverse; (first item of the row goes to last item of the row:)*/
- /*3.  flex-direction: column; */
- /*4.  flex-direction: column-reverse; */
+ /* height: 600px; */
+ /*___________________________*2.  flex direction___________________________________ */
+ 
+ /* flex-direction: row; */
+ /* flex-direction: row-reverse; */
+ /* flex-direction: column; */
+ /* flex-direction: column-reverse; */
 
- /*---------------------------- 3. flex-warp ------------------------------------------*/
- /* .................................................................................. */
+ /*___________________________3. flex-warp____________________________________________*/
+ 
   /* flex-wrap: nowrap; */
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
 /* flex-wrap: wrap-reverse; */
 
-/* ------------------------------4. flex-flow----------------------------------------- */
-/* ................................................................................... */
+/* ____________________________4. flex-flow____________________________________________*/
+
 /* flex-flow: column wrap; */
 
 
@@ -98,6 +98,12 @@ nav{
 /* align-items: stretch; */
 /* align-items: last baseline ; */
 
+
+/*___________________________gap, row-gap and column-gap______________________________ */
+
+/* gap: 15px; */
+/* row-gap: 25px; */
+/* column-gap: 15px; */
 
 
 
