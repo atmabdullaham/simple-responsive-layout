@@ -27,6 +27,34 @@ h2{
   letter-spacing: 0%;
   text-align: center;
 }
+h3{
+ border-radius: 8px;
+  background: rgba(82, 195, 3, 0.15);
+  color: rgb(16, 16, 16);
+   font-family: "Work Sans";
+   font-size: 24px;
+   font-weight: 600;
+   line-height: 28px;
+   letter-spacing: 0%;
+   text-align: center;
+
+    width: 50%px;
+    height: 56px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 14px 32px 14px 32px;
+   
+   
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 24px 0px;
+}
 nav{
  margin-bottom: 24px;
 }
@@ -34,6 +62,8 @@ nav{
  border: 2px solid goldenrod;
  display: flex;
  gap: 10px;
+ margin: 50px auto;
+ height: 600px;
                            /*2.  flex direction */
  /* .................................................................................. */
  /*1.  flex-direction: row; (default:)*/
@@ -43,11 +73,40 @@ nav{
 
  /*---------------------------- 3. flex-warp ------------------------------------------*/
  /* .................................................................................. */
-  flex-wrap: nowrap;
+  /* flex-wrap: nowrap; */
   /* flex-wrap: wrap; */
 /* flex-wrap: wrap-reverse; */
+
+/* ------------------------------4. flex-flow----------------------------------------- */
+/* ................................................................................... */
+/* flex-flow: column wrap; */
+
+
+/* ____________________________5. Justify-content_____________________________________ */
+
+/* justify-content: flex-start; */
+/* justify-content: flex-end; */
+/* justify-content: center; */
+/* justify-content: space-between;*/
+/* justify-content: space-evenly; */
+
+/* ______________________________6. Align-items_______________________________________ */
+
+/* align-items: flex-start; */
+/* align-items: flex-end; */
+/* align-items: center; */
+/* align-items: stretch; */
+/* align-items: last baseline ; */
+
+
+
+
+
+
 }
 .box{
+ /* width: 200px;
+ height: 200px; */
  width: 200px;
  height: 200px;
  border: 2px solid blue;
@@ -70,17 +129,26 @@ p{
   background:#fff;
 }
 article{
- margin-bottom: 20px;
+ margin-bottom: 50px;
+ border-radius: 100px 100px 0px 0px; 
+ background: rgba(5, 151, 160, 0.15);
+
+}
+article> img{
+ max-width: 500px;
+ max-height: 600px;
+ padding: 10px;
 }
 
 .example-container{
  display: flex;
- justify-content: space-between;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
  flex-wrap: wrap;
  margin: 15px;
  gap: 30px;
 }
 .example-container img{
- width: 720px;
- height: 380px;
+width: 100%;
 }
