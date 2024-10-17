@@ -5,7 +5,7 @@
 body{
  width: 80%;
  margin: 0px auto;
- background-color: #a6acaf;
+ background-color: #f1f4f5;
  font-family: "space mono";
 }
 h1{
@@ -157,4 +157,36 @@ article> img{
 }
 .example-container img{
 width: 100%;
+}
+#properties-for-children{
+ border: 2px solid red;
+}
+
+.box2-container{
+display: flex;
+margin: 25px;
+border: 2px solid red;
+width: 700px;
+}
+.box2{
+  width: 200px;
+  height: 200px;
+  border: 2px solid blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  Font: "Work Sans";
+  font-weight: 600;
+  Font-size: 24px;
+  Letter-spacing: 0%;
+  ;
+
+ 
+}
+#box-3{
+ /* order: 5; */
+ /* flex-grow: 1; */
+ /* flex-shrink: 15; */
+ align-self: flex-end;
+ width: 200px;
 }
