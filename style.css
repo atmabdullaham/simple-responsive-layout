@@ -1,0 +1,86 @@
+*{
+ padding: 0px;
+ margin: 0px;
+}
+body{
+ width: 80%;
+ margin: 0px auto;
+ background-color: #a6acaf;
+ font-family: "space mono";
+}
+h1{
+ font-family: "space mono";
+ color: rgb(255, 255, 255);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+h2{
+ font-family: "work sans";
+ margin-bottom: 5px;
+ color: rgba(43, 135, 174, 0.95);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+nav{
+ margin-bottom: 24px;
+}
+.box-container{
+ border: 2px solid goldenrod;
+ display: flex;
+ gap: 10px;
+                           /*2.  flex direction */
+ /* .................................................................................. */
+ /*1.  flex-direction: row; (default:)*/
+ /*2.  flex-direction: row-reverse; (first item of the row goes to last item of the row:)*/
+ /*3.  flex-direction: column; */
+ /*4.  flex-direction: column-reverse; */
+
+ /*---------------------------- 3. flex-warp ------------------------------------------*/
+ /* .................................................................................. */
+  flex-wrap: nowrap;
+  /* flex-wrap: wrap; */
+/* flex-wrap: wrap-reverse; */
+}
+.box{
+ width: 200px;
+ height: 200px;
+ border: 2px solid blue;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ Font: "Work Sans";
+ font-weight: 600; 
+ Font-size: 24px;
+ Letter-spacing: 0%
+}
+p{
+ color: rgb(16, 16, 16);
+  font-family: "courier prime";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+  background:#fff;
+}
+article{
+ margin-bottom: 20px;
+}
+
+.example-container{
+ display: flex;
+ justify-content: space-between;
+ flex-wrap: wrap;
+ margin: 15px;
+ gap: 30px;
+}
+.example-container img{
+ width: 720px;
+ height: 380px;
+}
